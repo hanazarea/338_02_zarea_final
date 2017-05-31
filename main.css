@@ -1,0 +1,250 @@
+* {
+	margin:0;
+    font-family: 'europa', sans-serif;
+}
+.bold {
+    font-weight: 700;
+}
+.bigbold {
+    font-weight: 700;
+    font-size:1.5em;
+}
+/*logo*/
+.logohead {
+    text-align: center;
+    margin: 50px auto 0 auto;
+}
+/*Navigation bar*/
+.topnav{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+	padding:25px 0 25px 0;
+}
+.topnav li {
+		list-style-type: none;
+		float: left;
+	color:#B2B2B2;
+
+}
+.topnav li a {
+	color:#B2B2B2;
+	text-decoration: none;		
+	padding-bottom:20px;
+	padding: 0px 10px 0px 10px;
+    font-family: 'europa', sans-serif;
+    font-size:1em;
+    font-weight: 100;
+}
+/* Hover photo effect */
+.row1 {
+    height: 30%;
+}
+.row2 {
+    height: 30%;
+}
+.home_images {
+    text-align: center;
+}
+.home_images img {
+    width: 100%;
+    float:left;
+}
+.container {
+    width:30%;
+    display:inline-block;
+    margin:10px;
+    margin-bottom: 30px;
+    height: inherit;
+}
+.imgdes{
+    z-index:99;
+    width: 30%;
+    text-align: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.62);
+  color: #fff;
+  opacity: 0; 
+  padding-top:15%;
+ font-family: 'europa', sans-serif;
+ font-size:1em;
+font-weight: 100;  
+
+/* transition effect */
+  transition: opacity .2s, visibility .2s;
+}
+
+.imgdes a{
+    z-index;100;
+  	color: white;
+	text-decoration: none;
+	padding-bottom:20px;
+	padding: 0px 10px 0px 10px;
+}
+
+.container:hover .imgdes {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*about me page*/
+
+.aboutme {
+    font-weight:100;
+    margin:50px;
+    width: 700px
+}
+.aboutme p {
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    font-family: "europa" serif;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+/*article listings*/
+
+.imgdeslow {
+    font-size: 1em;
+    font-weight:100;
+    color: darkgrey;
+}
+.container a {
+    text-decoration: none;
+}
+.container img {
+    margin-bottom: 10px;
+}
+/*recipe article*/
+.recipe{
+    padding:20px;
+}
+.smbutton{
+    width:50px;
+    height: auto;
+    display: inline;
+}
+.smbutton img {
+    width:40px;
+    align-content: left;
+}
+.titleheader{
+    display: inline
+}
+.recipe h1{
+    text-align: ;
+    padding-left:12px;
+}
+
+.imgcon .recipeheadpic{
+    width:50%;
+}
+
+.recipeheadpic {
+    width:50%;
+    padding-left: 25%;
+}
+.imgcon2 {
+        width:100%;
+        margin-left:8%;
+}
+
+.imgcon2 .recipeheadpic {
+    width: 40%;
+    padding-left: 0;
+    display: inline-block;
+    float: left;
+    padding:10px;
+    padding-bottom: 30px;
+}
+.recipeintro {
+    width:50%;
+    padding-left:25%;
+}
+.recipeintro p{
+    padding-top:20px;
+}
+.recipebox {
+    border: solid 2px;
+    border-color: black;
+    width:50%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.recipetitlebox h1{
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: "europa" sans-serif;
+}
+.recipebox h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.servingsize {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.inglist {
+padding:20px;
+}
+.recipeins {
+    padding:20px;
+}
+/*recipe footer*/
+.trynewrecipes {
+    padding-top: 30px;
+    width:100%;
+}
+.trynewrecipes img {
+    width: 100%;
+    
+}
+.trynewrecipes .container {
+width: 20%
+}
+.trynewrecipes h3 {
+    font-size: 1.6em;
+    text-align:center;
+    font-weight:300;
+    color:black;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    padding-top:9px;
+    padding-bottom:10px;
+    margin-top 100px;
+    margin-bottom:30px;
+}
+.trynewrecipes p {
+    font-size:1em;
+    text-align: center
+}
+.trynewrecipes a {
+    text-decoration: none;
+    color:black
+}
+.copyright {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom:9px;
+    padding-top: 6px;
+    margin-top: 150px;
+}
+input{
+    margin-left:43%;
+
+}
+.contactform p{
+    width: 60%;
+    margin:0 auto;
+    text-align: center
+}
