@@ -1,0 +1,28 @@
+gLast login: Mon Jun  5 09:14:35 on ttys000
+grc-denmark:~ hzarea$ cd desktop
+grc-denmark:desktop hzarea$ cd 338_02_zarea_final
+grc-denmark:338_02_zarea_final hzarea$ git log
+commit 7234ee0b9e684e9443cc01af4b4bc3b94594a0cc
+Author: hanazarea <hzarea@calpoly.edu>
+Date:   Mon May 15 12:00:57 2017 -0700
+
+    update links on other pages
+
+commit 6da3adcf04a324250b3c14e4a30c580b4f8ef98d
+Author: hanazarea <hzarea@calpoly.edu>
+Date:   Mon May 15 11:56:00 2017 -0700
+
+    center photos and try to align nav bar
+
+commit 564f366750855f75fa17f2d4738e0262fc14e9b6
+Author: hanazarea <hzarea@calpoly.edu>
+Date:   Mon May 15 11:37:21 2017 -0700
+
+    work on nav bar
+
+commit b24af84f181046c734d1356338c2b39bdec61ef1
+Author: hanazarea <hzarea@calpoly.edu>
+Date:   Mon May 15 10:27:35 2017 -0700
+
+    add html files
+:

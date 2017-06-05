@@ -1,0 +1,36 @@
+Last login: Mon Jun  5 10:05:19 on ttys000
+grc-denmark:~ hzarea$ cd desktop
+grc-denmark:desktop hzarea$  cd leavemeascone
+grc-denmark:leavemeascone hzarea$ git commit -am "fixed try new recipes section and links on pages"
+[master 61e945f] fixed try new recipes section and links on pages
+ 4 files changed, 39 insertions(+), 19 deletions(-)
+grc-denmark:leavemeascone hzarea$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+grc-denmark:leavemeascone hzarea$ git log
+commit 61e945fff1b3185abb1329b2de5a35f8bd76736e
+Author: hanazarea <hzarea@calpoly.edu>
+Date:   Mon Jun 5 11:51:39 2017 -0700
+
+    fixed try new recipes section and links on pages
+
+commit 37a97ae305e15276040ed8dc1a52f70e3f17f9c3
+Author: hanazarea <hzarea@calpoly.edu>
+Date:   Mon Jun 5 11:30:33 2017 -0700
+
+    fix pin button on two pages
+
+commit aa85e4862b3025e9bd56eb1e61fc16fa9a121122
+Author: hanazarea <hzarea@calpoly.edu>
+Date:   Mon Jun 5 11:26:26 2017 -0700
+
+    finished home page format
+
+commit f226be400d73df8737b86f83285e19a8f54e225b
+Author: hanazarea <hzarea@calpoly.edu>
+Date:   Mon Jun 5 10:30:35 2017 -0700
+
+    edited recipes page and added links to home page
+grc-denmark:leavemeascone hzarea$ 
