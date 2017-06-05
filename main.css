@@ -58,66 +58,66 @@ text-decoration: none}
     background: url("Images/Home/mango_coconut_sorbet_home.jpg")  
 }
 .pic3{
-    background: url("Images/Home/apple_pb_oats_home.jpg")  
+    background: url("Images/Home/broccoli_soup_salad_home.jpg")  
 }
 .pic4{
-    background: url("Images/Home/apple_pb_oats_home.jpg")  
+    background: url("Images/Home/blue_scones_home.jpg")  
 }
 .pic5{
-    background: url("Images/Home/apple_pb_oats_home.jpg")  
+    background: url("Images/Home/thai_classic_home.jpg")  
 }
 .pic6{
-    background: url("Images/Home/apple_pb_oats_home.jpg")  
+    background: url("Images/Home/42raw_home.jpg")  
 }
 
 .text{ 
     width:400px; 
-    height:200px; 
+    height:230px; 
     background:#FFF; 
     opacity:0;
 }
 
 .pic1:hover .text { 
-    opacity:0.6; 
+    opacity:0.9; 
     text-align:center; color:#000000; 
-    font-size:20px; 
+    font-size:2em; 
     font-weight:700;
-    padding-top:200px;
+    padding-top:190px;
   } 
 .pic2:hover .text { 
-    opacity:0.6; 
+    opacity:0.9; 
     text-align:center; color:#000000; 
-    font-size:20px; 
+    font-size:2em; 
     font-weight:700;
-    padding-top:200px
+    padding-top:170px
 }
 .pic3:hover .text { 
-    opacity:0.6; 
+    opacity:0.9; 
     text-align:center; color:#000000; 
-    font-size:20px; 
+    font-size:2em; 
     font-weight:700;
-    padding-top:200px
+    padding-top:170px
     }
 .pic4:hover .text { 
-    opacity:0.6; 
+    opacity:0.9; 
     text-align:center; color:#000000; 
-    font-size:20px; 
+    font-size:2em; 
     font-weight:700;
-    padding-top:200px
+    padding-top:190px
     }
 .pic5:hover .text { 
-    opacity:0.6; 
+    opacity:0.9; 
     text-align:center; color:#000000; 
-    font-size:20px; 
+    font-size:2em; 
     font-weight:700;
-    padding-top:200px
+    padding-top:170px
     }
 .pic6:hover .text { 
-    opacity:0.6; 
+    opacity:0.75; 
     text-align:center; color:#000000; 
-    font-size:20px; 
+    font-size:2em; 
     font-weight:700;
-    padding-top:200px
+    padding-top:170px
     }
         
 /*about me page*/
