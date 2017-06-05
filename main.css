@@ -40,22 +40,29 @@
 /* Hover photo effect */
 
 /* code from http://www.corelangs.com/css/box/hover.html*/
-
-.pic1, .pic2,.pic2,.pic3,.pic4,.pic5,.pic6{
-    width:400px; 
-    height:400px;
-    float:left;
-    margin:2.7%;   
+.home{
+    margin:0 auto;
+    max-width:1380px;
+}
+.row1{
+    display:inline-flex;
+}
+.row2{
+    display:inline-flex;
+}
+.pic1, .pic2,.pic3,.pic4,.pic5,.pic6{
+     margin:30px;
+    max-height: 400px;
 }
 
 .pic1 a, .pic2 a,.pic2 a,.pic3 a,.pic4 a,.pic5 a,.pic6 a{ 
 text-decoration: none}
 
 .pic1{
-    background: url("Images/Home/apple_pb_oats_home.jpg")  
+    background: url("Images/Home/apple_pb_oats_home.jpg");
 }
 .pic2{
-    background: url("Images/Home/mango_coconut_sorbet_home.jpg")  
+    background: url("Images/Home/mango_coconut_sorbet_home.jpg");  
 }
 .pic3{
     background: url("Images/Home/broccoli_soup_salad_home.jpg")  
@@ -71,55 +78,67 @@ text-decoration: none}
 }
 
 .text{ 
-    width:400px; 
-    height:230px; 
+    width:400px;
+    height:400px;
     background:#FFF; 
     opacity:0;
+    max-height:400px;
 }
 
 .pic1:hover .text { 
     opacity:0.9; 
-    text-align:center; color:#000000; 
-    font-size:2em; 
+    text-align:center; 
+    color:#000000; 
+    font-size:1em; 
     font-weight:700;
-    padding-top:190px;
+    padding-top:200px;
+    height:200px;
   } 
 .pic2:hover .text { 
     opacity:0.9; 
-    text-align:center; color:#000000; 
-    font-size:2em; 
+    text-align:center; 
+    color:#000000; 
+    font-size:1em; 
     font-weight:700;
-    padding-top:170px
+    padding-top:200px;
+    height:200px;
 }
 .pic3:hover .text { 
     opacity:0.9; 
-    text-align:center; color:#000000; 
-    font-size:2em; 
+    text-align:center; 
+    color:#000000; 
+    font-size:1em; 
     font-weight:700;
-    padding-top:170px
+    padding-top:200px;
+    height:200px;
     }
 .pic4:hover .text { 
     opacity:0.9; 
-    text-align:center; color:#000000; 
-    font-size:2em; 
+    text-align:center; 
+    color:#000000; 
+    font-size:1em; 
     font-weight:700;
-    padding-top:190px
+    padding-top:200px;
+    height:200px;
     }
 .pic5:hover .text { 
     opacity:0.9; 
-    text-align:center; color:#000000; 
-    font-size:2em; 
+    text-align:center; 
+    color:#000000; 
+    font-size:1em; 
     font-weight:700;
-    padding-top:170px
+    padding-top:200px;
+    height:200px;
     }
 .pic6:hover .text { 
     opacity:0.75; 
-    text-align:center; color:#000000; 
-    font-size:2em; 
+    text-align:center; 
+    color:#000000; 
+    font-size:1em; 
     font-weight:700;
-    padding-top:170px
+    padding-top:200px;
+    height:200px;
     }
-        
 /*about me page*/
 
 .aboutme {
