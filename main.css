@@ -180,6 +180,9 @@ h1 {
 .container img {
     margin-bottom: 10px;
 }
+.container{
+    margin:0 auto;
+}
 /*recipe article*/
 .recipe{
     padding:20px;
@@ -279,6 +282,8 @@ padding:20px;
 }
 .trynewrecipes img {
     width: 100%;
+}
+.try_images{
     
 }
 .trynewrecipes .container {
@@ -324,15 +329,19 @@ input{
     text-align: center
 }
 
-.container h4{
+.dircontainer h4{
     text-align: center;
     
 }
-.container{
+.dircontainer{
     float:left;
     width:24%;
     margin-right:4.65%;
     margin-left:4.65%
+}
+
+.dircontainer a{
+    text-decoration: none;
 }
 .dir_images img{
     width: 100%;
