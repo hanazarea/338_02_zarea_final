@@ -48,7 +48,7 @@
     margin:2.7%;   
 }
 
-.pic1 a, .pic2 a,.pic2 a,.pic3 a,.pic4 a,.pic5 a,.pic6.a{ 
+.pic1 a, .pic2 a,.pic2 a,.pic3 a,.pic4 a,.pic5 a,.pic6 a{ 
 text-decoration: none}
 
 .pic1{
@@ -303,4 +303,18 @@ input{
     width: 60%;
     margin:0 auto;
     text-align: center
+}
+
+.container h4{
+    text-align: center;
+    
+}
+.container{
+    float:left;
+    width:24%;
+    margin-right:4.65%;
+    margin-left:4.65%
+}
+.dir_images img{
+    width: 100%;
 }
