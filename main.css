@@ -207,7 +207,8 @@ width:400px;
     float:right;
     display:block;
     margin-top:50px;
-    margin-right:8%
+    margin-right:8%;
+    margin-bottom:200px;
 }
 h1 {
     font-family: "europa" serif;
@@ -261,7 +262,7 @@ h1 {
 .blogtext p{
     display: inline-block; 
 }
-
+.blogbox{}
 .blogbox h1{
     text-align: left;
     font-size: 4em;
@@ -269,15 +270,16 @@ h1 {
     color:darkgray;
 }
 .blogbox p{
-    display:inline-block;
-   width:50%;
+    display:block;
+   width:100%;
+    
 }
 .blogbox a{
     color: darkgray;
     text-decoration: none;
 }
-.blogpicleft{
-    width:50%;
+.blogpic{
+    width:100%;
     margin:0px 20px 20px 0px;;
     display:inline-block;
     float:left;
