@@ -1,0 +1,81 @@
+Last login: Mon Jun 12 18:07:41 on ttys002
+pcp140552pcs:~ hanazarea$ cd 338_02_zarea_final
+pcp140552pcs:338_02_zarea_final hanazarea$ git log
+commit e3064287c962ce71138502552104e9eed544dd7f
+Author: hzarea <hanazarea@gmail.com>
+Date:   Mon Jun 12 19:16:39 2017 -0700
+
+    modified links and added content to slo page
+
+commit 9e040d6ef5bdb8cf0164266536cdb97ad3a5ba20
+Author: hzarea <hanazarea@gmail.com>
+Date:   Mon Jun 12 18:37:07 2017 -0700
+
+    add broccoli cheddar page
+
+commit 96051e8dfa7d4c6f6ac99b73da1ffc5ca2b44971
+Author: hzarea <hanazarea@gmail.com>
+Date:   Mon Jun 12 18:08:34 2017 -0700
+
+    add new images and edit copenhagen page
+
+commit 0ff728030cf93c5e0052bdcd7335e9f03be43a7a
+Author: hzarea <hanazarea@gmail.com>
+Date:   Mon Jun 12 00:26:41 2017 -0700
+
+    add all edited files
+pcp140552pcs:338_02_zarea_final hanazarea$ 
+pcp140552pcs:338_02_zarea_final hanazarea$ git add -A 
+pcp140552pcs:338_02_zarea_final hanazarea$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	renamed:    Arvo/Arvo-Bold.ttf -> Fonts/Arvo/Arvo-Bold.ttf
+	renamed:    Arvo/Arvo-BoldItalic.ttf -> Fonts/Arvo/Arvo-BoldItalic.ttf
+	renamed:    Arvo/Arvo-Italic.ttf -> Fonts/Arvo/Arvo-Italic.ttf
+	renamed:    Arvo/Arvo-Regular.ttf -> Fonts/Arvo/Arvo-Regular.ttf
+	renamed:    Arvo/OFL.txt -> Fonts/Arvo/OFL.txt
+	new file:   Images/picempty.ai
+	new file:   Sketches/960_sketchsheet_1.pdf
+	new file:   Sketches/960_sketchsheets_2.pdf
+	renamed:    leavemeascone.sketch -> Sketches/leavemeascone.sketch
+	deleted:    recipe_template.html
+	deleted:    template.html
+
+pcp140552pcs:338_02_zarea_final hanazarea$ git -m "add sketches"
+Unknown option: -m
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+pcp140552pcs:338_02_zarea_final hanazarea$ git commit -m "add 960 sketches"
+[master 4078636] add 960 sketches
+ 11 files changed, 4125 insertions(+), 194 deletions(-)
+ rename {Arvo => Fonts/Arvo}/Arvo-Bold.ttf (100%)
+ rename {Arvo => Fonts/Arvo}/Arvo-BoldItalic.ttf (100%)
+ rename {Arvo => Fonts/Arvo}/Arvo-Italic.ttf (100%)
+ rename {Arvo => Fonts/Arvo}/Arvo-Regular.ttf (100%)
+ rename {Arvo => Fonts/Arvo}/OFL.txt (100%)
+ create mode 100644 Images/picempty.ai
+ create mode 100644 Sketches/960_sketchsheet_1.pdf
+ create mode 100644 Sketches/960_sketchsheets_2.pdf
+ rename leavemeascone.sketch => Sketches/leavemeascone.sketch (100%)
+ delete mode 100644 recipe_template.html
+ delete mode 100755 template.html
+pcp140552pcs:338_02_zarea_final hanazarea$ git push
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 785.73 KiB | 0 bytes/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/hanazarea/338_02_zarea_final.git
+   e306428..4078636  master -> master
+pcp140552pcs:338_02_zarea_final hanazarea$ 
+
+
+
+
